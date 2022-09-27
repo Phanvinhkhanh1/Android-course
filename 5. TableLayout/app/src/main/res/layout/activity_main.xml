@@ -1,46 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<TableLayout
-    android:stretchColumns="*"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    android:stretchColumns="*">
 
     <TableRow>
+
         <TextView
-            android:layout_span="6"
-            android:text="Android"
-            android:textSize="24sp"
+            android:layout_span="4"
             android:background="#FFEB3B"
-            android:textColor="#EF0707"
             android:gravity="center"
-            />
+            android:text="Android"
+            android:textColor="#EF0707"
+            android:textSize="24sp" />
     </TableRow>
 
     <TableRow>
+
         <TextView
             android:text="Android"
-            android:textSize="24sp"
-            />
+            android:textSize="24sp" />
+
         <TextView
             android:text="Android"
-            android:textSize="24sp"
-            />
+            android:textSize="24sp" />
+
         <TextView
             android:text="Android"
-            android:textSize="24sp"
-            />
+            android:textSize="24sp" />
+
         <TextView
             android:text="Android"
-            android:textSize="24sp"
-            />
+            android:textSize="24sp" />
+
         <TextView
             android:text="Android"
-            android:textSize="24sp"
-            />
+            android:textSize="24sp" />
+
         <TextView
             android:text="Android"
-            android:textSize="24sp"
-            />
+            android:textSize="24sp" />
     </TableRow>
 </TableLayout>
