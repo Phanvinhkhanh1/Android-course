@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textViewMin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="150dp"
+        android:text="Min : "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewMax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="222dp"
+        android:text="Max :"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonGenerate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="290dp"
+        android:text="Generate" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonGenerate"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="39dp"
+        android:text="Result :"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editTextTextMinNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="141dp"
+        android:layout_marginEnd="48dp"
+        android:ems="10"
+        android:hint="Min Number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextTextMaxNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="216dp"
+        android:layout_marginEnd="48dp"
+        android:ems="10"
+        android:hint="Max Number"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textViewResultNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewResult"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="45dp"
+        android:text="0"
+        android:textSize="30sp" />
+</RelativeLayout>

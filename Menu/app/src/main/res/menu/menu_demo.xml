@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuSetting"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Settings"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menuShare"
+        android:orderInCategory="3"
+        android:title="Share" />
+    <item
+        android:id="@+id/menuSearch"
+        android:orderInCategory="1"
+        android:title="Search" />
+    <item
+        android:id="@+id/menuExit"
+        android:orderInCategory="2"
+        android:title="Exit" />
+    <item
+        android:id="@+id/menuContact"
+        android:orderInCategory="4"
+        android:title="Contact">
+        <menu>
+            <item
+                android:id="@+id/menuContactPhone"
+                android:title="Phone" />
+            <item
+                android:id="@+id/menuContactEmail"
+                android:title="Email" />
+        </menu>
+    </item>
+</menu>

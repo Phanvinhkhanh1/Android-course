@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:measureAllChildren="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:textColor="#E61616"
+        android:textSize="32sp"
+        android:layout_gravity="center"
+        android:text="Android Programming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <ImageView
+        android:src="@drawable/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</FrameLayout>
