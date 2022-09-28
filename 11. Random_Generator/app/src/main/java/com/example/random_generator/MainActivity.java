@@ -35,10 +35,10 @@ public class MainActivity extends AppCompatActivity {
         btnGenerate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String s1 = edtMinNumber.getText().toString();
-                String s2 = edtMaxNumber.getText().toString();
+                String s1 = edtMinNumber.getText().toString().trim();
+                String s2 = edtMaxNumber.getText().toString().trim();
                 if (s1.isEmpty() || s2.isEmpty()) {
-                    Toast.makeText(MainActivity.this, "Please, input all number", Toast.LENGTH_SHORT);
+                    Toast.makeText(MainActivity.this, "Please, input all number", Toast.LENGTH_SHORT).show();
                 } else {
                     int minNumber = Integer.parseInt(s1);
                     int maxNumber = Integer.parseInt(s2);
