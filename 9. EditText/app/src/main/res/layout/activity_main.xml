@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginTop="161dp"
-        android:drawableLeft="@drawable/user48"
+        android:drawableLeft="@drawable/icon_user"
         android:ems="10"
         android:hint="UserName"
         android:inputType="textPersonName"
