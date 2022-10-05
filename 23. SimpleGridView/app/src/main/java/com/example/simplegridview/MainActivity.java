@@ -21,9 +21,9 @@ public class MainActivity extends AppCompatActivity {
 
         gridViewAlpha = (GridView) findViewById(R.id.gridViewAlphabet);
 
-        ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, arrayName);
+        ArrayAdapter arrayAdapter = new ArrayAdapter(MainActivity.this, android.R.layout.simple_list_item_1, arrayName);
 
-        gridViewAlpha.setAdapter(adapter);
+        gridViewAlpha.setAdapter(arrayAdapter);
 
         gridViewAlpha.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
