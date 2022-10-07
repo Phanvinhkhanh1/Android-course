@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">30._GlobalApp</string>
+    <string name="text_title">Information Form</string>
+    <string name="hint_fullName">Input Fullname</string>
+    <string name="hint_password">Input Password</string>
+    <string name="hint_email">Input Email</string>
+    <string name="button_confirm">Confirm</string>
+    <string name="text_hello">hello</string>
+    <string name="text_fullName">fullName</string>
+    <string name="text_password">password</string>
+    <string name="text_email" translatable="false">Email</string>
+</resources>

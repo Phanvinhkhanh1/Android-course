@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">30._GlobalApp</string>
+    <string name="text_title">Phiếu Thông Tin</string>
+    <string name="hint_fullName">Nhập Họ Tên</string>
+    <string name="hint_password">Nhập Mật Khẩu</string>
+    <string name="hint_email">Nhập Email</string>
+    <string name="button_confirm">Xác Nhận</string>
+    <string name="text_hello">Chào bạn</string>
+    <string name="text_fullName">Họ tên</string>
+    <string name="text_password">Mật khẩu</string>
+</resources>
