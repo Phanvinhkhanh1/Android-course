@@ -1,0 +1,32 @@
+package com.example.a64_medialocalsound;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.media.MediaPlayer;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+
+public class MainActivity extends AppCompatActivity {
+    Button btnPlay;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        Mapping();
+
+        btnPlay.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MediaPlayer mediaPlayer = MediaPlayer.create(MainActivity.this, R.raw.chinese);
+                mediaPlayer.start();
+            }
+        });
+    }
+
+    public void Mapping() {
+        btnPlay = (Button) findViewById(R.id.btnPlayMedia);
+    }
+}
