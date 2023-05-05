@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">AngryBirdApplication</string>
+    <string-array name="list_name">
+        <item>bird_1</item>
+        <item>bird_2</item>
+        <item>bird_3</item>
+        <item>bird_4</item>
+        <item>bird_5</item>
+        <item>bird_6</item>
+        <item>bird_7</item>
+        <item>bird_8</item>
+        <item>bird_9</item>
+        <item>bird_10</item>
+        <item>bird_11</item>
+        <item>bird_12</item>
+        <item>bird_13</item>
+        <item>bird_14</item>
+        <item>bird_15</item>
+        <item>bird_16</item>
+        <item>bird_17</item>
+        <item>bird_18</item>
+    </string-array>
+</resources>
